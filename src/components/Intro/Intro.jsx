@@ -26,18 +26,16 @@ const Intro = () => {
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hai.. I Am</span>
           <span>Manohar Majji</span>
-          <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
-          </span>
+          <span style={{fontSize:"1rem"}}>
+         Welcome! I'm a skilled Full Stack Developer, passionate about creating robust web applications. Proficient in JavaScript, HTML, CSS, React, and Node.js, I seamlessly bridge front-end design with efficient back-end implementation. With a track record of delivering creative and technically excellent projects, my portfolio showcases the fusion of design and functionality. My commitment to staying current with industry trends positions me as a versatile and forward-thinking developer. </span>
         </div>
         <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
+          <button className="button s-button">RESUME</button>
         </a>
         {/* social icons */}
         <div className="i-icons">
-          <a href="https://github.com/Pradeep-majji" target="_blank"><img src={Github} alt="github link" /></a>
-          <a href="https://www.linkedin.com/in/pradeep-majji-977b90244/" target="_blank"><img src={LinkedIn} alt="linkedin link" /></a>
+          <a href="https://github.com/Majjimanohar7989" target="_blank"><img src={Github} alt="github link" /></a>
+          <a href="https://www.linkedin.com/in/majji-manohar-3a916126a/" target="_blank"><img src={LinkedIn} alt="linkedin link" /></a>
         </div>
       </div>
       {/* right image side */}

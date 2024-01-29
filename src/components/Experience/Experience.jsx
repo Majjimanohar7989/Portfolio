@@ -7,7 +7,7 @@ const Experience = () => {
 
   return (
     <>
-    <center><div style={{color:'rgb(241, 207, 11)',fontSize:'40px'}}>
+    <center><div style={{color:'rgb(241, 207, 11)',fontSize:'40px',marginTop:'5rem'}}>
           SKILL SET
       </div></center>
     <div className="experience" id='experience'>
@@ -24,52 +24,30 @@ const Experience = () => {
         <span  style={{color: darkMode?'white':''}}>java script</span>
       </div>
 
+      <div className="achievement">
+        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>70%</div>
+        <span  style={{color: darkMode?'white':''}}>java</span>
+      </div>
 
+      <div className="achievement">
+     <div className="circle" style={{color: darkMode?'var(--orange)':''}}>90%</div>
+     <span  style={{color: darkMode?'white':''}}>python</span>
+   </div>
+    
       <div className="achievement">
         <div className="circle" style={{color: darkMode?'var(--orange)':''}}>60%</div>
         <span  style={{color: darkMode?'white':''}}>reactjs</span>
       </div>
 
-      
-      <div className="achievement">
-        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>70%</div>
-        <span  style={{color: darkMode?'white':''}}>java</span>
-      </div>
-    
-     <div className="achievement">
-     <div className="circle" style={{color: darkMode?'var(--orange)':''}}>90%</div>
-     <span  style={{color: darkMode?'white':''}}>pytnon</span>
-   </div>
-
    <div className="achievement">
-     <div className="circle" style={{color: darkMode?'var(--orange)':''}}>90%</div>
-     <span  style={{color: darkMode?'white':''}}>pytnon</span>
+     <div className="circle" style={{color: darkMode?'var(--orange)':''}}>70%</div>
+     <span  style={{color: darkMode?'white':''}}>PHP</span>
    </div>
 
 
    <div className="achievement">
-     <div className="circle" style={{color: darkMode?'var(--orange)':''}}>90%</div>
-     <span  style={{color: darkMode?'white':''}}>pytnon</span>
-   </div>
-
-   <div className="achievement">
-     <div className="circle" style={{color: darkMode?'var(--orange)':''}}>90%</div>
-     <span  style={{color: darkMode?'white':''}}>pytnon</span>
-   </div>
-
-   <div className="achievement">
-     <div className="circle" style={{color: darkMode?'var(--orange)':''}}>90%</div>
-     <span  style={{color: darkMode?'white':''}}>pytnon</span>
-   </div>
-
-   <div className="achievement">
-     <div className="circle" style={{color: darkMode?'var(--orange)':''}}>90%</div>
-     <span  style={{color: darkMode?'white':''}}>pytnon</span>
-   </div>
-
-   <div className="achievement">
-     <div className="circle" style={{color: darkMode?'var(--orange)':''}}>90%</div>
-     <span  style={{color: darkMode?'white':''}}>pytnon</span>
+     <div className="circle" style={{color: darkMode?'var(--orange)':''}}>70%</div>
+     <span  style={{color: darkMode?'white':''}}>MongoDB</span>
    </div>
    </div>
    </>

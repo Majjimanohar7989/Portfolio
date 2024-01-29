@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
       <div className="f-content">
-        <span style={{ color: "black" }}>manoharamajji@gmail.com <br/><br/>Phone:7989572341<br/><br/>Parvathi Puram , Andhra Pradesh</span>
+        <span style={{ color: "black" }}>majjimanohar7989@gmail.com <br/><br/>Phone:7989572341<br/><br/>Parvathi Puram , Andhra Pradesh</span>
       </div>
     </div>
   );
